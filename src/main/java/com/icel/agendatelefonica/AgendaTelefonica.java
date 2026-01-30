@@ -1,13 +1,13 @@
 package com.icel.agendatelefonica;
 
-import com.icel.agendatelefonica.pruebas.Pruebas01;
+import com.icel.agendatelefonica.pruebas.Pruebas02;
 
 /** @author anyu **/
 
 public class AgendaTelefonica{
     public static void main(String[] args) throws Exception{
         System.out.println("Hello World!");
-        Pruebas01 obj = new Pruebas01();
+        Pruebas02 obj = new Pruebas02();
             obj.prueba();
     }
 }
