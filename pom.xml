@@ -30,5 +30,21 @@
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.51.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>3.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.miglayout</groupId>
+            <artifactId>miglayout-swing</artifactId>
+            <version>11.4.2</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>             
+            <groupId>org.swinglabs</groupId>             
+            <artifactId>swingx</artifactId>             
+            <version>1.6.1</version>         
+        </dependency>
     </dependencies>
 </project>

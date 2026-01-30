@@ -10,7 +10,7 @@ import java.util.List;
 
 public abstract class Repositorio<T extends Entidad>{
     
-    private MiConexion miConexion;
+    protected MiConexion miConexion;
     protected PreparedStatement enunciado;
     
     /* query definition */
