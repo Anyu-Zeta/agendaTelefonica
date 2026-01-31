@@ -38,15 +38,15 @@ public class MiConexion{
         servidor = "localhost";
         puerto = 3306;
         baseDeDatos = "agendaTelefonica";
-        usuario = "prueba";
-        contrasenia = "prueba123";
+        usuario = "root";
+        contrasenia = "yolo2304";
         url = "jdbc:mariadb://"+servidor+":"+puerto+"/"+baseDeDatos;
     }
     
     private static MiConexion instancia;
     public static MiConexion getInstancia() throws Exception{
         if(instancia == null){
-            instancia = new MiConexion(SQLITE);
+            instancia = new MiConexion(MARIADB);//CAMBIO
         }
         return instancia;
     }
